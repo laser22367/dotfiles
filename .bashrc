@@ -173,3 +173,4 @@ esac
 set -o vi
 
 export BASHRC_LOADED=true
+set -o vi
