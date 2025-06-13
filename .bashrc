@@ -170,8 +170,8 @@ case "$PROMPT_COMMAND" in
 *_zoxide_hook*) ;;
 *) PROMPT_COMMAND="_zoxide_hook${PROMPT_COMMAND:+;${PROMPT_COMMAND}}" ;;
 esac
+
 set -o vi
 
 export BASHRC_LOADED=true
-set -o vi
 export PATH=$PATH:${HOME}/scripts/bin
