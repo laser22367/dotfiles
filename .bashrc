@@ -174,7 +174,6 @@ esac
 set -o vi
 
 alias hh='history -w && h'
-alias hhh='history -w && myscript1'
 
 export BASHRC_LOADED=true
 export PATH=$PATH:${HOME}/scripts/bin
