@@ -140,7 +140,7 @@ z() {
   else
     _zoxide_result="$(zoxide query -- "$@")" && _z_cd "$_zoxide_result"
   fi
-  exa -a --icons --sort=modified
+  exa -al --icons --sort=modified
 }
 
 zi() {
