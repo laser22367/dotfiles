@@ -141,6 +141,8 @@ z() {
     _zoxide_result="$(zoxide query -- "$@")" && _z_cd "$_zoxide_result"
   fi
   exa -al --icons --sort=modified
+  sleep 3
+  exa -al --icons --sort=modified | tail -1
 }
 
 zi() {
