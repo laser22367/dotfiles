@@ -142,7 +142,7 @@ z() {
   fi
   exa -al --icons --sort=modified
   sleep 3
-  exa -al --icons --sort=modified | tail -1
+  exa -al --icons --sort=modified | tail -1 | mybat
 }
 
 zi() {
