@@ -179,3 +179,4 @@ alias hh='history -w && h'
 
 export BASHRC_LOADED=true
 export PATH=$PATH:${HOME}/scripts/bin
+export -f z
