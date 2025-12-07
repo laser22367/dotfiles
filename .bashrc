@@ -181,3 +181,5 @@ export BASHRC_LOADED=true
 export PATH=$PATH:${HOME}/scripts/bin
 
 RANGER_LOAD_DEFAULT_RC=FALSE
+
+export EDITOR=nvim
