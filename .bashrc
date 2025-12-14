@@ -177,6 +177,11 @@ set -o vi
 
 alias hh='history -w && h'
 
+eval $(thefuck --alias)
+# You can use whatever you want as an alias, like for Mondays:
+eval $(thefuck --alias ffff)
+alias ff='history -w && fff'
+
 export BASHRC_LOADED=true
 export PATH=$PATH:${HOME}/scripts/bin
 
