@@ -177,7 +177,7 @@ set -o vi
 
 alias hh='history -w && h'
 
-eval $(thefuck --alias fff)
+eval $(thefuck --alias ff)
 
 export BASHRC_LOADED=true
 export PATH=$PATH:${HOME}/scripts/bin
