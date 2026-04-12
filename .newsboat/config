@@ -1,0 +1,7 @@
+auto-reload yes
+cleanup-on-quit yes
+browser firefox
+macro v set browser "setsid -f mpv --really-quiet --no-terminal" ; open-in-browser ; set browser firefox
+macro b  open-in-browser ; set browser firefox
+macro g set browser mpv ;
+macro b  open-in-browser ; set browser firefox
