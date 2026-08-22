@@ -185,3 +185,6 @@ export PATH=$PATH:${HOME}/scripts/bin
 RANGER_LOAD_DEFAULT_RC=FALSE
 
 export EDITOR=nvim
+
+. "$HOME/.atuin/bin/env"
+eval "$(atuin init bash)"
